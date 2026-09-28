@@ -115,7 +115,7 @@ propose ─► PROPOSED ─accept─► ACCEPTED ─deliver─► DELIVERED ─a
 | `OMISSION` | `NONE`, `MINOR`, `MATERIAL`, `UNCLEAR` | `MINOR`/`MATERIAL`: from the **source** - what went missing |
 | `ADDITION` | `NONE`, `MINOR`, `MATERIAL`, `UNCLEAR` | `MINOR`/`MATERIAL`: from the translation - what was added |
 | `TERM_<id>` | `CORRECT`, `INCORRECT`, `UNCLEAR` | `INCORRECT`: from the translation |
-| `REQ_<id>` | `MET`, `NOT_MET`, `UNCLEAR` | `MET`/`NOT_MET`: either document |
+| `REQ_<id>` | `MET`, `NOT_MET`, `UNCLEAR` | `NOT_MET`: either document - the passage that breaks it |
 
 MATERIAL means a reader would act differently: an obligation, a quantity, a
 date, a party, a condition, a warning, a prohibition. MINOR means a real change
@@ -124,6 +124,12 @@ NONE.
 
 Every quote is re-grounded by every validator in the bytes it fetched, and in
 the document its subject allows.
+
+A reading that finds a problem points at it; a reading that finds none has
+nothing to point at. (Changed after the first diagnostic pass: the draft asked
+`MET` for a quote too, a leader quoted the single word "tome" as proof of formal
+address, one word grounds nothing, and the round split. "Formal throughout" is a
+universal claim that no one passage proves.)
 
 ## The derivation (code, in this order)
 

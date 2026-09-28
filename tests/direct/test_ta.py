@@ -46,6 +46,9 @@ def test_only_the_named_translator_accepts_the_exact_terms(ta, direct_vm, direct
 def test_the_translator_may_decline_and_the_requester_may_cancel(ta, direct_vm,
                                                                  direct_alice, direct_bob):
     first = s.proposed(ta, direct_vm, direct_alice, direct_bob)
+    direct_vm.sender = direct_alice
+    with direct_vm.expect_revert("only the named translator declines"):
+        ta.decline_agreement(first)
     direct_vm.sender = direct_bob
     assert ta.decline_agreement(first) == "CANCELLED"
     assert ta.get_agreement(first)["ending"] == "DECLINED"

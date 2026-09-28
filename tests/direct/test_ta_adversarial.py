@@ -281,6 +281,108 @@ def test_a_forged_missing_numbers_list_is_refused(ta, direct_vm, direct_alice, d
     assert s.replay(direct_vm, payload) is False
 
 
+def test_a_requirement_met_throughout_needs_no_quote(ta, direct_vm, direct_alice,
+                                                    direct_bob):
+    """Found live: a leader quoted the single word 'tome' as proof of formal
+    address, a single word grounds nothing, and the round split. 'Formal
+    throughout' is not proven by any one passage, so MET needs no quote - and a
+    one-word quote offered anyway is dropped without costing the reading."""
+    subjects = s.faithful_said()
+    subjects["REQ_FORMAL_ADDRESS"] = s.said("MET", [("TRANSLATION", "tome")])
+    agreement_id, resolution_id = _assessed(ta, direct_vm, direct_alice, direct_bob,
+                                            subjects=subjects)
+    finding = s.finding_in(s.record(ta, resolution_id), "REQ_FORMAL_ADDRESS")
+    assert finding["state"] == "MET" and finding["quotes"] == []
+    assert ta.get_outcome(agreement_id)["verdict"] == "PRESERVED"
+
+
+def test_an_unmet_requirement_asserted_without_a_quote_is_downgraded(ta, direct_vm,
+                                                                     direct_alice,
+                                                                     direct_bob):
+    subjects = s.faithful_said()
+    subjects["REQ_FORMAL_ADDRESS"] = s.said("NOT_MET", [("TRANSLATION", "toma")])
+    _a, resolution_id = _assessed(ta, direct_vm, direct_alice, direct_bob, subjects=subjects)
+    rec = s.record(ta, resolution_id)
+    assert s.finding_in(rec, "REQ_FORMAL_ADDRESS")["state"] == "UNCLEAR"
+    assert rec["reason_code"] == "READING_UNCLEAR"
+
+
+def test_a_misrendered_term_asserted_without_a_quote_is_downgraded(ta, direct_vm,
+                                                                  direct_alice, direct_bob):
+    subjects = s.faithful_said()
+    subjects["TERM_TABLET"] = s.said("INCORRECT", [])
+    _a, resolution_id = _assessed(ta, direct_vm, direct_alice, direct_bob, subjects=subjects)
+    rec = s.record(ta, resolution_id)
+    assert s.finding_in(rec, "TERM_TABLET")["state"] == "UNCLEAR"
+    assert rec["reason_code"] == "READING_UNCLEAR"
+
+
+def test_the_gate_refuses_an_omission_quoted_from_the_translation(ta, direct_vm,
+                                                                  direct_alice, direct_bob):
+    """The verdict does not move - it is a material omission either way - so only
+    the rule about which document an omission may cite refuses this."""
+    body = s.translation(drop=(s.T_ALCOHOL,))
+    _assessed(ta, direct_vm, direct_alice, direct_bob, body=body,
+              subjects=s.faithful_said(omission="MATERIAL"))
+    payload = s.leader_payload(direct_vm)
+    s.finding_in(payload, "OMISSION")["quotes"] = [{"evidence_id": "TRANSLATION",
+                                                    "text": s.T_MAX}]
+    assert s.replay(direct_vm, payload) is False
+
+
+def test_a_forged_check_that_changes_no_reason_is_still_refused(ta, direct_vm, direct_alice,
+                                                               direct_bob):
+    """Calling a term the source uses NOT_IN_SOURCE changes no code reason, but it
+    removes that term's reading from the outcome - and it is false."""
+    _assessed(ta, direct_vm, direct_alice, direct_bob)
+    payload = s.leader_payload(direct_vm)
+    payload["checks"]["terms"]["ingredient"] = "NOT_IN_SOURCE"
+    assert s.replay(direct_vm, payload) is False
+
+
+def test_the_gate_itself_refuses_malformed_checks(mod):
+    """The comparison would also catch these; the gate holds on its own too, which
+    is what protects the second pass over the ratified payload."""
+    ctx = {"terms": {"critical_terms": [{"term_id": "a"}], "preserve_numbers": True}}
+    readable = [{"status": "RETRIEVED"}, {"status": "RETRIEVED"}]
+    good = {"terms": {"a": "PRESENT"}, "missing_numbers": ["8"]}
+    assert mod._valid_checks(ctx, good, readable) is True
+    for bad in ({"terms": {"a": "PRESENT", "b": "PRESENT"}, "missing_numbers": []},
+                {"terms": {"a": "MAYBE"}, "missing_numbers": []},
+                {"terms": {"a": "PRESENT"}, "missing_numbers": ["eight"]},
+                {"terms": {"a": "PRESENT"}, "missing_numbers": [8]},
+                {"terms": {"a": "PRESENT"}, "missing_numbers": ["8", "8"]},
+                {"terms": {"a": "PRESENT"}, "missing_numbers": [""]},
+                {"terms": {"a": "PRESENT"}},
+                "checks"):
+        assert mod._valid_checks(ctx, bad, readable) is False, bad
+    no_numbers = {"terms": {"critical_terms": [{"term_id": "a"}], "preserve_numbers": False}}
+    assert mod._valid_checks(no_numbers, good, readable) is False
+    unreadable = [{"status": "RETRIEVED"}, {"status": "NOT_FOUND"}]
+    assert mod._valid_checks(ctx, {"terms": {}, "missing_numbers": []}, unreadable) is True
+    assert mod._valid_checks(ctx, good, unreadable) is False
+
+
+def test_an_optional_requirement_does_not_decide_the_outcome(ta, direct_vm, direct_alice,
+                                                             direct_bob):
+    reqs = s.terms("0x0")["requirements"] + [
+        s.requirement("glossary_note", "A translator's glossary is appended.", False)]
+    subjects = dict(s.faithful_said(), REQ_GLOSSARY_NOTE=s.said(
+        "NOT_MET", [("TRANSLATION", s.T_MAX)]))
+    agreement_id, resolution_id = _assessed(ta, direct_vm, direct_alice, direct_bob,
+                                            requirements=reqs, subjects=subjects)
+    assert ta.get_outcome(agreement_id)["verdict"] == "PRESERVED"
+    assert s.finding_in(s.record(ta, resolution_id), "REQ_GLOSSARY_NOTE")["compared"] is False
+
+
+def test_a_deterministic_failure_is_not_ratified_by_a_transient_one(ta, direct_vm,
+                                                                    direct_alice,
+                                                                    direct_bob):
+    _assessed(ta, direct_vm, direct_alice, direct_bob)
+    direct_vm._llm_mocks.clear()
+    assert s.replay(direct_vm, error=Exception("[EXPECTED] the gate refused it")) is False
+
+
 def test_malformed_and_tampered_payloads_are_refused(ta, direct_vm, direct_alice,
                                                      direct_bob):
     _assessed(ta, direct_vm, direct_alice, direct_bob)

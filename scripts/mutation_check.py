@@ -96,6 +96,10 @@ MUTATIONS = [
       "        return state in (MINOR, MATERIAL)\n", "        return False\n"),
     m("a misrendered term needs no quote", "        return state == INCORRECT\n",
       "        return False\n"),
+    m("an unmet requirement needs no quote", "    return state == NOT_MET\n",
+      "    return False\n"),
+    m("a met requirement needs a quote again", "    return state == NOT_MET\n",
+      "    return state in (MET, NOT_MET)\n"),
     m("an omission may be quoted from the translation",
       "    if subject_id == SUBJECT_OMISSION and state in (MINOR, MATERIAL):"),
     m("a distortion or an addition may be quoted from the source",
@@ -140,7 +144,12 @@ MUTATIONS = [
     m("the consequence is not compared",
       "    for key in sorted(mine.keys()):\n        if mine[key] != theirs[key]:\n",
       "    for key in sorted(mine.keys()):\n        if False:\n"),
-    m("the code checks are not compared", '    if own["checks"] != theirs["checks"]:'),
+    # Equivalent by construction, and left out rather than counted as a false kill:
+    # the code checks are compared twice, in _evidence_difference and inside the
+    # consequence, and either alone catches every difference the other would - they
+    # are pure functions of the bound bytes, so they cannot differ without the
+    # consequence differing. test_a_forged_check_that_changes_no_reason_is_still_refused
+    # pins the pair together.
     m("the code checks are not gated",
       "    if sorted(terms.keys()) != ids or not all(v in TERM_CHECKS for v in terms.values()):"),
     m("a missing number need not be a number",

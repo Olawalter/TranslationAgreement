@@ -282,8 +282,12 @@ rendered with the meaning it has in the source, in context?
 
 REQ_<requirement> (one per entry in DATA.agreement.requirements) - does the
 translation meet that requirement?
-  MET or NOT_MET: quote the passage that shows it, from either document.
+  MET: it does throughout; no quote is needed.
+  NOT_MET: quote the passage that breaks it, a full sentence or clause, from
+  either document.
   UNCLEAR: you cannot tell.
+
+Every quote is a run of at least two words; a single word proves nothing.
 
 DATA:
 """
@@ -1156,12 +1160,15 @@ def _spliced(text: str) -> bool:
 
 
 def _quoted(subject_id: str, state: str) -> bool:
-    """Whether this reading must show the passage it rests on."""
+    """Whether this reading must show the passage it rests on. A reading that
+    finds a problem points at it; a reading that finds none has nothing to point
+    at - "formal throughout" is not proven by any one passage - so NONE, CORRECT
+    and MET need no quote, and MINOR, MATERIAL, INCORRECT and NOT_MET do."""
     if subject_id in DEVIATION_SUBJECTS:
         return state in (MINOR, MATERIAL)
     if subject_id.startswith(TERM_PREFIX):
         return state == INCORRECT
-    return state in (MET, NOT_MET)
+    return state == NOT_MET
 
 
 def _quotable(subject_id: str, state: str, eligible: list) -> list:
