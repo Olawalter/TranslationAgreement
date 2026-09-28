@@ -1,0 +1,22 @@
+16:28:32 contract 0x711DD6ED9911330c85a4302C9D4c84F4F55BA9A7 phase full
+16:28:32 phase cases
+16:28:32   propose:TA12: propose_agreement as r12
+16:29:17     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:29:24   accept:TA12: accept_agreement as translator
+16:30:02     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:30:02   propose:TA13: propose_agreement as r13
+16:30:42     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:30:48   accept:TA13: accept_agreement as translator
+16:31:27     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:31:27   deliver:TA13: deliver_translation as translator
+16:32:15     FINALIZED/SUCCESS votes agree,agree,idle,idle,agree
+16:32:15   propose:TA01: propose_agreement as r01
+16:33:01     FINALIZED/SUCCESS votes idle,agree,agree,agree,agree
+16:33:07   accept:TA01: accept_agreement as translator
+16:33:46     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+16:33:46   deliver:TA01: deliver_translation as translator
+16:34:24     FINALIZED/SUCCESS votes idle,agree,agree,agree,agree
+16:34:24   assess:TA01: assess as keeper
+16:35:37     FINALIZED/SUCCESS votes agree,disagree,disagree,agree,agree
+16:35:39     TA01: NOT_PRESERVED/MATERIAL_DISTORTION MISSED
+16:35:39   contest:TA01: contest as r01

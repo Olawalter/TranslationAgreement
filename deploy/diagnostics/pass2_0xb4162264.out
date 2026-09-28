@@ -1,0 +1,22 @@
+16:52:38 contract 0xB4162264cB70FdC774951a236ED3d18a32ccb680 phase full
+16:52:38 phase cases
+16:52:38   propose:TA12: propose_agreement as r12
+16:53:17     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:53:24   accept:TA12: accept_agreement as translator
+16:54:03     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:54:03   propose:TA13: propose_agreement as r13
+16:54:42     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+16:54:49   accept:TA13: accept_agreement as translator
+16:55:28     FINALIZED/SUCCESS votes agree,idle,agree,agree,agree
+16:55:28   deliver:TA13: deliver_translation as translator
+16:56:06     FINALIZED/SUCCESS votes agree,idle,agree,idle,agree
+16:56:06   propose:TA01: propose_agreement as r01
+16:56:47     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:56:55   accept:TA01: accept_agreement as translator
+16:57:34     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:57:34   deliver:TA01: deliver_translation as translator
+16:58:12     FINALIZED/SUCCESS votes idle,agree,agree,agree,agree
+16:58:12   assess:TA01: assess as keeper
+16:59:27     FINALIZED/SUCCESS votes agree,agree,disagree,idle,agree
+16:59:29     TA01: PARTIALLY_PRESERVED/MINOR_DEVIATIONS MISSED
+16:59:29   contest:TA01: contest as r01

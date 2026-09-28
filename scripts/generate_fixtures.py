@@ -35,8 +35,8 @@ SOURCE_LINES = [
     "Adults: take 1 to 2 tablets every 8 hours, with a glass of water.",
     "Do not take more than 8 tablets in 24 hours.",
     "Do not drink alcohol while taking this medicine.",
-    "Ask your doctor before use if you are pregnant.",
-    "Keep out of the reach of children.",
+    "Ask your doctor before using it if you are pregnant.",
+    "Keep this medicine out of the reach of children.",
 ]
 
 TITLE = "Paracetamol 500 mg comprimidos - prospecto"

@@ -1,0 +1,63 @@
+16:38:35 contract 0x711DD6ED9911330c85a4302C9D4c84F4F55BA9A7 phase full
+16:38:35 phase cases
+16:38:35   propose:TA12: propose_agreement as r12
+16:39:19     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:39:26   accept:TA12: accept_agreement as translator
+    rpc transient on eth_getTransactionByHash (1/8): Request to https://studio.genlayer.com/api failed: HTTPSConnectionPool(host='studio.genlay; retry in 5s
+16:40:10     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:40:10   propose:TA13: propose_agreement as r13
+16:40:49     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+16:40:57   accept:TA13: accept_agreement as translator
+16:41:37     FINALIZED/SUCCESS votes agree,idle,agree,agree,idle
+16:41:37   deliver:TA13: deliver_translation as translator
+16:42:16     FINALIZED/SUCCESS votes agree,agree,idle,idle,agree
+16:42:16   propose:TA01: propose_agreement as r01
+16:43:00     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+16:43:07   accept:TA01: accept_agreement as translator
+16:43:46     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+16:43:46   deliver:TA01: deliver_translation as translator
+16:44:24     FINALIZED/SUCCESS votes agree,agree,idle,agree,agree
+16:44:24   assess:TA01: assess as keeper
+    rpc transient on eth_getTransactionByHash (1/8): Request to https://studio.genlayer.com/api failed: HTTPSConnectionPool(host='studio.genlay; retry in 5s
+16:48:01     FINALIZED/SUCCESS votes idle,disagree,idle,disagree,disagree
+16:48:03     TA01: None/no resolution stored MISSED
+16:48:03   contest:TA01: contest as r01
+    rpc transient on eth_getTransactionByHash (1/8): Request to https://studio.genlayer.com/api failed: HTTPSConnectionPool(host='studio.genlay; retry in 5s
+16:48:40     FINALIZED/ERROR votes agree,agree,agree,agree,agree
+16:48:42     TA01:contest: None/no resolution stored MISSED
+16:48:42   propose:TA02: propose_agreement as r02
+16:49:21     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:49:28   accept:TA02: accept_agreement as translator
+16:50:06     FINALIZED/SUCCESS votes agree,agree,agree,idle,idle
+16:50:06   deliver:TA02: deliver_translation as translator
+16:50:45     FINALIZED/SUCCESS votes idle,agree,agree,idle,agree
+16:50:45   assess:TA02: assess as keeper
+16:51:41     FINALIZED/SUCCESS votes agree,idle,agree,disagree,agree
+16:51:42     TA02: PARTIALLY_PRESERVED/MINOR_DEVIATIONS HELD
+16:51:42   propose:TA03: propose_agreement as r03
+16:52:22     FINALIZED/SUCCESS votes agree,agree,idle,agree,agree
+16:52:30   accept:TA03: accept_agreement as translator
+    rpc transient on eth_getTransactionCount (1/8): Request to https://studio.genlayer.com/api failed: ('Connection aborted.', RemoteDisconnec; retry in 5s
+16:53:19     FINALIZED/SUCCESS votes agree,agree,agree,idle,idle
+16:53:19   deliver:TA03: deliver_translation as translator
+16:53:58     FINALIZED/SUCCESS votes agree,agree,idle,agree,agree
+16:53:58   assess:TA03: assess as keeper
+    rpc transient on sim_getConsensusContract (1/8): Request to https://studio.genlayer.com/api failed: HTTPSConnectionPool(host='studio.genlay; retry in 5s
+16:55:16     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+16:55:18     TA03: NOT_PRESERVED/MATERIAL_OMISSION HELD
+16:55:18   propose:TA04: propose_agreement as r04
+16:55:57     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:56:04   accept:TA04: accept_agreement as translator
+16:56:45     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+16:56:45   deliver:TA04: deliver_translation as translator
+16:57:24     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+16:57:24   assess:TA04: assess as keeper
+16:58:25     FINALIZED/SUCCESS votes idle,agree,disagree,agree,agree
+16:58:27     TA04: NOT_PRESERVED/MATERIAL_DISTORTION HELD
+16:58:27   propose:TA05: propose_agreement as r05
+16:59:06     FINALIZED/SUCCESS votes agree,agree,agree,idle,idle
+16:59:14   accept:TA05: accept_agreement as translator
+16:59:52     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+16:59:52   deliver:TA05: deliver_translation as translator
+17:00:32     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+17:00:32   assess:TA05: assess as keeper
