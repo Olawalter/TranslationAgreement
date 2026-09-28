@@ -1,0 +1,167 @@
+80 mutations, 0 anchor problems
+accept-control: unmodified copy must pass ...
+control green; 80 mutations over 3 job(s)
+
+  [1/80] killed  : a 404 is a generic failure
+  [2/80] killed  : a redirect is read as a retrieved document
+  [3/80] killed  : a binary content type is read
+  [4/80] killed  : a document's bytes are not checked against its declared digest
+  [5/80] killed  : a digest mismatch is judged by the panel anyway
+  [6/80] killed  : an oversized document is not marked partial
+  [7/80] killed  : an unreadable document is judged anyway
+  [8/80] killed  : the checks of an unreadable round may be anything
+  [9/80] killed  : a document addressing the assessor is judged anyway
+  [10/80] killed  : text in the visible body is not scanned
+  [11/80] killed  : markup and attributes are not scanned
+  [12/80] killed  : the title is not scanned
+  [13/80] killed  : a missing critical term reaches the panel
+  [14/80] killed  : a missing number reaches the panel
+  [15/80] killed  : a term the source never uses is still required
+  [16/80] killed  : the first accepted rendering is the only one
+  [17/80] killed  : numbers are checked by presence, not by count
+  [18/80] killed  : numbers are checked even when the terms do not ask
+  [19/80] killed  : a deviation needs no quote
+  [20/80] killed  : a term check matches part of a word
+  [21/80] killed  : a misrendered term needs no quote
+  [22/80] killed  : an unmet requirement needs no quote
+  [23/80] killed  : a met requirement needs a quote again
+  [24/80] killed  : an omission may be quoted from the translation
+  [25/80] killed  : a distortion or an addition may be quoted from the source
+  [26/80] killed  : a spliced quote is accepted when the panel answers
+  [27/80] killed  : a spliced quote passes the gate
+  [28/80] killed  : a quote need not ground in the text this node retrieved
+  [29/80] killed  : a code decision about a term or a number is not a verdict
+  [30/80] killed  : the gate lets a reading quote either document
+  [31/80] killed  : a code reason is overridden by the panel's reading
+  [32/80] killed  : a material deviation is not a failure
+  [33/80] killed  : an unusable panel answer reaches a verdict
+  [34/80] killed  : a misrendered term is not a failure
+  [35/80] killed  : an unmet requirement is not a failure
+  [36/80] killed  : a term the source never uses is judged anyway
+  [37/80] killed  : an unclear reading is preserved
+  [38/80] killed  : an optional requirement decides the outcome
+  [39/80] killed  : a minor deviation is preserved
+  [40/80] killed  : the consequence is not compared
+  [41/80] killed  : the code checks are not gated
+  [42/80] killed  : a missing number need not be a number
+  [43/80] killed  : the leader's payload is gated against its own text, not this node's
+  [44/80] killed  : a transient failure ratifies a different failure
+  [45/80] killed  : a payload about another agreement is accepted
+  [46/80] killed  : the translator may be the requester
+  [47/80] killed  : the languages may be the same
+  [48/80] killed  : the source may come from any host
+  [49/80] killed  : the source need not be bound to a digest
+  [50/80] killed  : the windows are unbounded
+  [51/80] killed  : preserve_numbers may be anything
+  [52/80] killed  : a term id may shadow a built-in subject
+  [53/80] killed  : a term may have no accepted rendering
+  [54/80] killed  : the terms' text may address the assessor
+  [55/80] killed  : a delivery may come after its deadline
+  [56/80] killed  : an IP literal is a host
+  [57/80] killed  : a stranger may deliver
+  [58/80] killed  : a translation may come from any host
+  [59/80] killed  : the source may be delivered as the translation
+  [60/80] killed  : the source's bytes may be delivered as the translation
+  [61/80] killed  : a stranger may accept
+  [62/80] killed  : the accepted terms are not checked
+  [63/80] killed  : a stranger may cancel
+  [64/80] killed  : a translation need not be bound to a digest
+  [65/80] killed  : accepted terms may be cancelled
+  [66/80] killed  : a stranger may decline
+  [67/80] killed  : accepted terms may be accepted again
+  [68/80] killed  : a delivery may be assessed after its window
+  [69/80] killed  : an outcome may be contested twice
+  [70/80] killed  : an agreement may be assessed twice
+  [71/80] killed  : a stranger may contest
+  [72/80] killed  : an outcome may be contested after its window
+  [73/80] killed  : an agreement may expire before its delivery deadline
+  [74/80] killed  : an outcome may be made final inside its contest window
+  [75/80] killed  : a delivery may lapse while its window is open
+  [76/80] killed  : an outcome is final before it is final
+  [77/80] killed  : the open-agreement cap does not hold
+  [78/80] killed  : a final outcome keeps the requester's slot
+  [79/80] killed  : every reading is marked compared
+  [80/80] killed  : the preserved count is not corrected when a contest overturns
+
+killed:   a redirect is read as a retrieved document
+killed:   a 404 is a generic failure
+killed:   a binary content type is read
+killed:   an oversized document is not marked partial
+killed:   a document's bytes are not checked against its declared digest
+killed:   a digest mismatch is judged by the panel anyway
+killed:   an unreadable document is judged anyway
+killed:   the checks of an unreadable round may be anything
+killed:   a document addressing the assessor is judged anyway
+killed:   text in the visible body is not scanned
+killed:   markup and attributes are not scanned
+killed:   the title is not scanned
+killed:   a missing critical term reaches the panel
+killed:   a missing number reaches the panel
+killed:   a term the source never uses is still required
+killed:   the first accepted rendering is the only one
+killed:   numbers are checked by presence, not by count
+killed:   numbers are checked even when the terms do not ask
+killed:   a term check matches part of a word
+killed:   a deviation needs no quote
+killed:   a misrendered term needs no quote
+killed:   an unmet requirement needs no quote
+killed:   a met requirement needs a quote again
+killed:   an omission may be quoted from the translation
+killed:   a distortion or an addition may be quoted from the source
+killed:   a spliced quote is accepted when the panel answers
+killed:   a spliced quote passes the gate
+killed:   a quote need not ground in the text this node retrieved
+killed:   the gate lets a reading quote either document
+killed:   a code decision about a term or a number is not a verdict
+killed:   a code reason is overridden by the panel's reading
+killed:   an unusable panel answer reaches a verdict
+killed:   a material deviation is not a failure
+killed:   a misrendered term is not a failure
+killed:   an unmet requirement is not a failure
+killed:   an optional requirement decides the outcome
+killed:   a term the source never uses is judged anyway
+killed:   an unclear reading is preserved
+killed:   a minor deviation is preserved
+killed:   the consequence is not compared
+killed:   the code checks are not gated
+killed:   a missing number need not be a number
+killed:   the leader's payload is gated against its own text, not this node's
+killed:   a transient failure ratifies a different failure
+killed:   a payload about another agreement is accepted
+killed:   the translator may be the requester
+killed:   the languages may be the same
+killed:   the source may come from any host
+killed:   the source need not be bound to a digest
+killed:   the windows are unbounded
+killed:   preserve_numbers may be anything
+killed:   a term id may shadow a built-in subject
+killed:   a term may have no accepted rendering
+killed:   the terms' text may address the assessor
+killed:   an IP literal is a host
+killed:   a stranger may deliver
+killed:   a delivery may come after its deadline
+killed:   a translation may come from any host
+killed:   the source may be delivered as the translation
+killed:   the source's bytes may be delivered as the translation
+killed:   a translation need not be bound to a digest
+killed:   a stranger may accept
+killed:   the accepted terms are not checked
+killed:   accepted terms may be accepted again
+killed:   a stranger may cancel
+killed:   accepted terms may be cancelled
+killed:   a stranger may decline
+killed:   an agreement may be assessed twice
+killed:   a delivery may be assessed after its window
+killed:   an outcome may be contested twice
+killed:   a stranger may contest
+killed:   an outcome may be contested after its window
+killed:   an outcome may be made final inside its contest window
+killed:   an agreement may expire before its delivery deadline
+killed:   a delivery may lapse while its window is open
+killed:   the open-agreement cap does not hold
+killed:   a final outcome keeps the requester's slot
+killed:   an outcome is final before it is final
+killed:   every reading is marked compared
+killed:   the preserved count is not corrected when a contest overturns
+
+mutations: 80 killed, 0 survived, 0 anchor missing

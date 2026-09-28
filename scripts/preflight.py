@@ -73,7 +73,10 @@ def main():
         for token in re.findall(r"`([A-Za-z_][A-Za-z0-9_]*)(?:\(|`)", path.read_text(
                 encoding="utf-8")):
             symbolic = token.startswith("_") or "_" in token
-            if not symbolic or token in EXTERNAL or token.startswith("test_"):
+            # a record file under deploy/ names the deployment it ran against
+            # (pass1_0x711dd6ed); an address fragment is never a contract symbol
+            record_name = "_0x" in token
+            if not symbolic or record_name or token in EXTERNAL or token.startswith("test_"):
                 continue
             if re.search(r"(?<![A-Za-z0-9_])" + re.escape(token) + r"(?![A-Za-z0-9_])",
                          source) is None:

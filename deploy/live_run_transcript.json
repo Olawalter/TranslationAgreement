@@ -1,0 +1,2056 @@
+{
+ "address": "0xB4162264cB70FdC774951a236ED3d18a32ccb680",
+ "finished_at": "2026-09-28T17:54:43Z",
+ "order": [
+  "propose:TA12",
+  "accept:TA12",
+  "propose:TA13",
+  "accept:TA13",
+  "deliver:TA13",
+  "propose:TA01",
+  "accept:TA01",
+  "deliver:TA01",
+  "assess:TA01",
+  "contest:TA01",
+  "propose:TA02",
+  "accept:TA02",
+  "deliver:TA02",
+  "assess:TA02",
+  "propose:TA03",
+  "accept:TA03",
+  "deliver:TA03",
+  "assess:TA03",
+  "propose:TA04",
+  "accept:TA04",
+  "deliver:TA04",
+  "assess:TA04",
+  "propose:TA05",
+  "accept:TA05",
+  "deliver:TA05",
+  "assess:TA05",
+  "propose:TA06",
+  "accept:TA06",
+  "deliver:TA06",
+  "assess:TA06",
+  "propose:TA07",
+  "accept:TA07",
+  "deliver:TA07",
+  "assess:TA07",
+  "propose:TA08",
+  "accept:TA08",
+  "deliver:TA08",
+  "assess:TA08",
+  "propose:TA09",
+  "accept:TA09",
+  "deliver:TA09",
+  "assess:TA09",
+  "propose:TA10",
+  "accept:TA10",
+  "deliver:TA10",
+  "assess:TA10",
+  "propose:TA11",
+  "accept:TA11",
+  "deliver:TA11",
+  "assess:TA11",
+  "propose:TA14",
+  "decline:TA14",
+  "propose:TA15",
+  "cancel:TA15",
+  "finalize:TA01",
+  "finalize:TA02",
+  "finalize:TA03",
+  "expire:TA12",
+  "lapse:TA13",
+  "refuse:self_as_translator",
+  "refuse:same_language",
+  "propose:REFUSALS",
+  "refuse:stranger_accepts",
+  "refuse:wrong_terms_hash",
+  "accept:REFUSALS",
+  "refuse:outside_domains",
+  "refuse:source_as_translation",
+  "refuse:stranger_delivers",
+  "refuse:accepted_cancel",
+  "refuse:double_assessment",
+  "refuse:stranger_contest",
+  "refuse:final_contest"
+ ],
+ "raw_base": "https://raw.githubusercontent.com/Olawalter/TranslationAgreement/3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/",
+ "started_at": "2026-09-28T16:59:40Z",
+ "stats": {
+  "agreements": 34,
+  "preserved": 3,
+  "resolutions": 26
+ },
+ "steps": {
+  "accept:REFUSALS": {
+   "args": [
+    "TA-000035",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:50:07Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:REFUSALS",
+   "tx": "0x04f0955771c7bef5a489bb3f4ab6decf930e3b9f14990636ceba61156168a92f",
+   "votes": [
+    "idle",
+    "idle",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA01": {
+   "args": [
+    "TA-000022",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:04:51Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA01",
+   "tx": "0xfb4d861557bdf0af1f0d381a6a00704238edbcc261e1319d9d741ce80b4058d6",
+   "votes": [
+    "agree",
+    "idle",
+    "idle",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA02": {
+   "args": [
+    "TA-000023",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:09:00Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA02",
+   "tx": "0x43592fb5d37680fec0363d6284dcf7493dc6b96c385ec0f8a8c8681c4ea048f7",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA03": {
+   "args": [
+    "TA-000024",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:12:11Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA03",
+   "tx": "0x2bba788b2b0a0b06f9780f91c1de37f1c6e9a8195f30ca65934517d9d8748146",
+   "votes": [
+    "idle",
+    "idle",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA04": {
+   "args": [
+    "TA-000025",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:15:10Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA04",
+   "tx": "0x7708bb6dd654e12415ed2d7161e48202874259f73d5ac7ed851f5b6e9ee54ab9",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "agree",
+    "idle"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA05": {
+   "args": [
+    "TA-000026",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:18:16Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA05",
+   "tx": "0xf1108eba80ed7792acf8ed28271673fbe1069843b1edd9479e7dfda03064d188",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA06": {
+   "args": [
+    "TA-000027",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:22:13Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA06",
+   "tx": "0x4452c8e1f726061aac6b499cf736910a47db79a30e85d556d359a625b20488ad",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "idle",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA07": {
+   "args": [
+    "TA-000028",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:25:26Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA07",
+   "tx": "0x5b72031f794c8539522984a50403aa5e07441a33b254fd902970d3a454679f5d",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA08": {
+   "args": [
+    "TA-000029",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:28:17Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA08",
+   "tx": "0xe85dc6cd7b9e527975e277260306eaa0f4edf6d867580948579436f4d3f4c948",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "agree",
+    "idle"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA09": {
+   "args": [
+    "TA-000030",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:31:12Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA09",
+   "tx": "0xc4aad9ad2f51420343449b3ab5f1f69d249190eb8aae795a5e272eb89b65ba0c",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA10": {
+   "args": [
+    "TA-000031",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:34:15Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA10",
+   "tx": "0x3af07fe6b5845abab6ad28a5788ad3f4701742b06934430c9bc022ad9ba83afd",
+   "votes": [
+    "idle",
+    "idle",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA11": {
+   "args": [
+    "TA-000032",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:37:11Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA11",
+   "tx": "0x29c4937747caa76f48f3b3bee0d4dffe659d6cad2336a9754412a9d5f636103f",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA12": {
+   "args": [
+    "TA-000020",
+    "bd6e2ea63c278abc22f7503f6f6b2c08c94a8e13235609e85e01aec10f97ef14"
+   ],
+   "at": "2026-09-28T17:01:19Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA12",
+   "tx": "0xe246bd1de32390c4730543de34a0ee7f91b30400047c6a4bd5519487ed60e350",
+   "votes": [
+    "agree",
+    "idle",
+    "idle",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "accept:TA13": {
+   "args": [
+    "TA-000021",
+    "9340de40c50ab085d7fec03b6492e32a595888a1a249a4114f77201314e74186"
+   ],
+   "at": "2026-09-28T17:02:43Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "accept_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "accept:TA13",
+   "tx": "0x5cd22b299e37d80a9b1dd24cb7de1e264e26d7fa7a930caf7c195c16198cb04d",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "assess:TA01": {
+   "agreement_id": "TA-000022",
+   "args": [
+    "TA-000022"
+   ],
+   "at": "2026-09-28T17:06:34Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE"
+   },
+   "expected_reason": "MEANING_PRESERVED",
+   "expected_verdict": "PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "a faithful translation: every line, every number, both terms, formal address",
+   "observed_reason": "MEANING_PRESERVED",
+   "observed_verdict": "PRESERVED",
+   "panel_state": "ASSESSED",
+   "readings": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE",
+    "REQ_FORMAL_ADDRESS": "MET",
+    "TERM_INGREDIENT": "CORRECT",
+    "TERM_TABLET": "CORRECT"
+   },
+   "resolution_id": "TR-000015",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA01",
+   "supersedes": "",
+   "tx": "0x2c446174dbab50ec7a8c6496744133f700d31efebd860eb06db45c15673defd6",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA02": {
+   "agreement_id": "TA-000023",
+   "args": [
+    "TA-000023"
+   ],
+   "at": "2026-09-28T17:10:41Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {
+    "ADDITION": "MINOR",
+    "DISTORTION": "MINOR",
+    "OMISSION": "NONE"
+   },
+   "expected_reason": "MINOR_DEVIATIONS",
+   "expected_verdict": "PARTIALLY_PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "'out of the reach and sight of children': a real addition nobody would act on differently",
+   "observed_reason": "MINOR_DEVIATIONS",
+   "observed_verdict": "PARTIALLY_PRESERVED",
+   "panel_state": "ASSESSED",
+   "readings": {
+    "ADDITION": "MINOR",
+    "DISTORTION": "MINOR",
+    "OMISSION": "NONE",
+    "REQ_FORMAL_ADDRESS": "MET",
+    "TERM_INGREDIENT": "CORRECT",
+    "TERM_TABLET": "CORRECT"
+   },
+   "resolution_id": "TR-000017",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA02",
+   "supersedes": "",
+   "tx": "0xfc0793d51b95240cbc1f1ec35ccedd465760e5348824e4555e7b3b3c082d0ce8",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "agree",
+    "idle"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA03": {
+   "agreement_id": "TA-000024",
+   "args": [
+    "TA-000024"
+   ],
+   "at": "2026-09-28T17:13:44Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "MATERIAL"
+   },
+   "expected_reason": "MATERIAL_OMISSION",
+   "expected_verdict": "NOT_PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "the alcohol warning is gone; no number or term reveals it",
+   "observed_reason": "MATERIAL_OMISSION",
+   "observed_verdict": "NOT_PRESERVED",
+   "panel_state": "ASSESSED",
+   "readings": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "MATERIAL",
+    "REQ_FORMAL_ADDRESS": "MET",
+    "TERM_INGREDIENT": "CORRECT",
+    "TERM_TABLET": "CORRECT"
+   },
+   "resolution_id": "TR-000018",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA03",
+   "supersedes": "",
+   "tx": "0x95118dccbde3f8c74bb0c8bbc466ef0a5a02b6558bdc8f754acb68f0fb753820",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA04": {
+   "agreement_id": "TA-000025",
+   "args": [
+    "TA-000025"
+   ],
+   "at": "2026-09-28T17:16:51Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {
+    "ADDITION": "MATERIAL",
+    "DISTORTION": "MATERIAL",
+    "OMISSION": "NONE"
+   },
+   "expected_reason": "MATERIAL_DISTORTION",
+   "expected_verdict": "NOT_PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "'ask your doctor if pregnant' became 'you may use it without asking'",
+   "observed_reason": "MATERIAL_DISTORTION",
+   "observed_verdict": "NOT_PRESERVED",
+   "panel_state": "ASSESSED",
+   "readings": {
+    "ADDITION": "MATERIAL",
+    "DISTORTION": "MATERIAL",
+    "OMISSION": "NONE",
+    "REQ_FORMAL_ADDRESS": "MET",
+    "TERM_INGREDIENT": "CORRECT",
+    "TERM_TABLET": "CORRECT"
+   },
+   "resolution_id": "TR-000019",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA04",
+   "supersedes": "",
+   "tx": "0x59252feafa26495a669d6cbe4454c41d6bf4565c18a9ee28d8dd9e76caa6eadb",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA05": {
+   "agreement_id": "TA-000026",
+   "args": [
+    "TA-000026"
+   ],
+   "at": "2026-09-28T17:20:35Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {
+    "ADDITION": "MATERIAL",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE"
+   },
+   "expected_reason": "one of: MATERIAL_ADDITION, MATERIAL_DISTORTION",
+   "expected_verdict": "NOT_PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "an invented claim that it is safe for children of all ages",
+   "observed_reason": "MATERIAL_ADDITION",
+   "observed_verdict": "NOT_PRESERVED",
+   "panel_state": "ASSESSED",
+   "readings": {
+    "ADDITION": "MATERIAL",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE",
+    "REQ_FORMAL_ADDRESS": "MET",
+    "TERM_INGREDIENT": "CORRECT",
+    "TERM_TABLET": "CORRECT"
+   },
+   "resolution_id": "TR-000020",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA05",
+   "supersedes": "",
+   "tx": "0xc111e40802832d975b11153d23ee7960fc13a3152337ce1ce11a62b597ff8d04",
+   "votes": [
+    "idle",
+    "agree",
+    "idle",
+    "agree",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA06": {
+   "agreement_id": "TA-000027",
+   "args": [
+    "TA-000027"
+   ],
+   "at": "2026-09-28T17:23:55Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE"
+   },
+   "expected_reason": "REQUIREMENT_NOT_MET",
+   "expected_verdict": "NOT_PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "faithful in meaning but informal throughout, against an agreed requirement",
+   "observed_reason": "REQUIREMENT_NOT_MET",
+   "observed_verdict": "NOT_PRESERVED",
+   "panel_state": "ASSESSED",
+   "readings": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE",
+    "REQ_FORMAL_ADDRESS": "NOT_MET",
+    "TERM_INGREDIENT": "CORRECT",
+    "TERM_TABLET": "CORRECT"
+   },
+   "resolution_id": "TR-000021",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA06",
+   "supersedes": "",
+   "tx": "0x864d8fc22f80365cdb3a708a5992107eb47569fd4edd5abb2c46d40c5dbeb57d",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "agree",
+    "idle"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA07": {
+   "agreement_id": "TA-000028",
+   "args": [
+    "TA-000028"
+   ],
+   "at": "2026-09-28T17:26:53Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "MISSING",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {},
+   "expected_reason": "CRITICAL_TERM_MISSING",
+   "expected_verdict": "NOT_PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "a correct synonym, but not the rendering the parties agreed; decided in code",
+   "observed_reason": "CRITICAL_TERM_MISSING",
+   "observed_verdict": "NOT_PRESERVED",
+   "panel_state": "SKIPPED",
+   "readings": {
+    "ADDITION": "UNCLEAR",
+    "DISTORTION": "UNCLEAR",
+    "OMISSION": "UNCLEAR",
+    "REQ_FORMAL_ADDRESS": "UNCLEAR",
+    "TERM_INGREDIENT": "UNCLEAR",
+    "TERM_TABLET": "UNCLEAR"
+   },
+   "resolution_id": "TR-000022",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA07",
+   "supersedes": "",
+   "tx": "0x8c9bba996e5820150dcd86b18a697d4ba3d0c6a2d4802575fe482f88aed56732",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA08": {
+   "agreement_id": "TA-000029",
+   "args": [
+    "TA-000029"
+   ],
+   "at": "2026-09-28T17:29:45Z",
+   "checks": {
+    "missing_numbers": [
+     "8"
+    ],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {},
+   "expected_reason": "NUMBER_NOT_PRESERVED",
+   "expected_verdict": "NOT_PRESERVED",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "every 8 hours became every 4; the other 8 survives, so only counting catches it; decided in code",
+   "observed_reason": "NUMBER_NOT_PRESERVED",
+   "observed_verdict": "NOT_PRESERVED",
+   "panel_state": "SKIPPED",
+   "readings": {
+    "ADDITION": "UNCLEAR",
+    "DISTORTION": "UNCLEAR",
+    "OMISSION": "UNCLEAR",
+    "REQ_FORMAL_ADDRESS": "UNCLEAR",
+    "TERM_INGREDIENT": "UNCLEAR",
+    "TERM_TABLET": "UNCLEAR"
+   },
+   "resolution_id": "TR-000023",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA08",
+   "supersedes": "",
+   "tx": "0xfbc8aaf15210dda3efb877d96cea7b9a60ed11372e6068497c51bfdd4bc2b056",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA09": {
+   "agreement_id": "TA-000030",
+   "args": [
+    "TA-000030"
+   ],
+   "at": "2026-09-28T17:32:45Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {},
+   "expected_reason": "DOCUMENT_ADDRESSES_ASSESSOR",
+   "expected_verdict": "INSUFFICIENT_EVIDENCE",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [
+    "TRANSLATION:BODY"
+   ],
+   "method": "assess",
+   "note": "the translation carries a line addressed to the assessor; the round stops",
+   "observed_reason": "DOCUMENT_ADDRESSES_ASSESSOR",
+   "observed_verdict": "INSUFFICIENT_EVIDENCE",
+   "panel_state": "SKIPPED",
+   "readings": {
+    "ADDITION": "UNCLEAR",
+    "DISTORTION": "UNCLEAR",
+    "OMISSION": "UNCLEAR",
+    "REQ_FORMAL_ADDRESS": "UNCLEAR",
+    "TERM_INGREDIENT": "UNCLEAR",
+    "TERM_TABLET": "UNCLEAR"
+   },
+   "resolution_id": "TR-000024",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA09",
+   "supersedes": "",
+   "tx": "0x28df448cc12980d83a7ecb1649d3f460324c759ad2c8bc4aad5991f65da93dd4",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "idle",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA10": {
+   "agreement_id": "TA-000031",
+   "args": [
+    "TA-000031"
+   ],
+   "at": "2026-09-28T17:35:39Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {}
+   },
+   "deviations": {},
+   "expected_reason": "EVIDENCE_DIGEST_MISMATCH",
+   "expected_verdict": "INSUFFICIENT_EVIDENCE",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "the delivered digest is not the served document's; never a verdict",
+   "observed_reason": "EVIDENCE_DIGEST_MISMATCH",
+   "observed_verdict": "INSUFFICIENT_EVIDENCE",
+   "panel_state": "SKIPPED",
+   "readings": {
+    "ADDITION": "UNCLEAR",
+    "DISTORTION": "UNCLEAR",
+    "OMISSION": "UNCLEAR",
+    "REQ_FORMAL_ADDRESS": "UNCLEAR",
+    "TERM_INGREDIENT": "UNCLEAR",
+    "TERM_TABLET": "UNCLEAR"
+   },
+   "resolution_id": "TR-000025",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA10",
+   "supersedes": "",
+   "tx": "0x68240a4558c423465ce81f8180074de10db1b29dfd609230a770732bdaadc2e2",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "assess:TA11": {
+   "agreement_id": "TA-000032",
+   "args": [
+    "TA-000032"
+   ],
+   "at": "2026-09-28T17:38:36Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {}
+   },
+   "deviations": {},
+   "expected_reason": "DOCUMENT_UNREADABLE",
+   "expected_verdict": "INSUFFICIENT_EVIDENCE",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "assess",
+   "note": "a translation that is not published is not an unfaithful one",
+   "observed_reason": "DOCUMENT_UNREADABLE",
+   "observed_verdict": "INSUFFICIENT_EVIDENCE",
+   "panel_state": "SKIPPED",
+   "readings": {
+    "ADDITION": "UNCLEAR",
+    "DISTORTION": "UNCLEAR",
+    "OMISSION": "UNCLEAR",
+    "REQ_FORMAL_ADDRESS": "UNCLEAR",
+    "TERM_INGREDIENT": "UNCLEAR",
+    "TERM_TABLET": "UNCLEAR"
+   },
+   "resolution_id": "TR-000026",
+   "round": 1,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "assess:TA11",
+   "supersedes": "",
+   "tx": "0x9d51bbd268393e57253128d53e3a453b1bf0935bb0c8070689edcd899709ebea",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "agree",
+    "idle"
+   ],
+   "wallet": "keeper"
+  },
+  "cancel:TA15": {
+   "agreement_id": "TA-000034",
+   "args": [
+    "TA-000034"
+   ],
+   "at": "2026-09-28T17:41:38Z",
+   "expected_reason": "CANCELLED",
+   "expected_verdict": "NONE",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "cancel_agreement",
+   "note": "the requester withdraws terms nobody accepted",
+   "observed_reason": "CANCELLED",
+   "observed_verdict": "NONE",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "cancel:TA15",
+   "tx": "0x4c060e60aba8d051210877d79f2d0a266c041ad704375114ff8d264277c2c519",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "r15"
+  },
+  "contest:TA01": {
+   "agreement_id": "TA-000022",
+   "args": [
+    "TA-000022"
+   ],
+   "at": "2026-09-28T17:07:32Z",
+   "checks": {
+    "missing_numbers": [],
+    "terms": {
+     "ingredient": "PRESENT",
+     "tablet": "PRESENT"
+    }
+   },
+   "deviations": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE"
+   },
+   "expected_reason": "MEANING_PRESERVED",
+   "expected_verdict": "a second reading, superseding the first",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "markers": [],
+   "method": "contest",
+   "note": "a faithful translation: every line, every number, both terms, formal address",
+   "observed_reason": "MEANING_PRESERVED",
+   "observed_verdict": "PRESERVED",
+   "panel_state": "ASSESSED",
+   "readings": {
+    "ADDITION": "NONE",
+    "DISTORTION": "NONE",
+    "OMISSION": "NONE",
+    "REQ_FORMAL_ADDRESS": "MET",
+    "TERM_INGREDIENT": "CORRECT",
+    "TERM_TABLET": "CORRECT"
+   },
+   "resolution_id": "TR-000016",
+   "round": 2,
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "contest:TA01",
+   "supersedes": "TR-000015",
+   "tx": "0x2583c62652f69078a99304e2077522c5d119ba9ec977fa7c73a1134f8de054b1",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "r01"
+  },
+  "decline:TA14": {
+   "agreement_id": "TA-000033",
+   "args": [
+    "TA-000033"
+   ],
+   "at": "2026-09-28T17:40:13Z",
+   "expected_reason": "DECLINED",
+   "expected_verdict": "NONE",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "decline_agreement",
+   "note": "the named translator declines the terms",
+   "observed_reason": "DECLINED",
+   "observed_verdict": "NONE",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "decline:TA14",
+   "tx": "0xa52e12cb2dfcaeab3f9edbd600ca1b7f66a4d57d01794f2ed12729481c3dc604",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA01": {
+   "args": [
+    "TA-000022",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es.html",
+    "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2"
+   ],
+   "at": "2026-09-28T17:05:35Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA01",
+   "tx": "0x8c1030850e4efed9fe9d1f36025867fbda24dce8458a9c3c6fd80fede1543261",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA02": {
+   "args": [
+    "TA-000023",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-sight.html",
+    "86990afbb5324830613b158585299d36429ae1c9e66956a5b2065292d494cd62"
+   ],
+   "at": "2026-09-28T17:09:44Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA02",
+   "tx": "0x067703e1bb3f9ae91e7e7c5fde54162ad3b5e874e633b668c480c4ffdf9c3465",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA03": {
+   "args": [
+    "TA-000024",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-no-alcohol.html",
+    "8a79a01a97c246e08ffbf14df0d5ac20a6c3877ecdf88d7ee3c95ae9f5808118"
+   ],
+   "at": "2026-09-28T17:12:51Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA03",
+   "tx": "0xc481be0593dee2d5483010bc3fc698580fe5f6f9115c8e34f552c283ea8db6da",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA04": {
+   "args": [
+    "TA-000025",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-pregnancy.html",
+    "b9c83a51966936c718e8bc225ccc77c7d25d407b189da1ae7d052dbc87241224"
+   ],
+   "at": "2026-09-28T17:15:51Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA04",
+   "tx": "0x7c71a1ff499138bdc59c26a6520b4fb445ccb1a414faf7c71612a2858c1b7ed9",
+   "votes": [
+    "idle",
+    "agree",
+    "idle",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA05": {
+   "args": [
+    "TA-000026",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-all-ages.html",
+    "91c19923b479da162e1511e8db2e67e52e839c428f8104761da814a0d029820f"
+   ],
+   "at": "2026-09-28T17:18:57Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA05",
+   "tx": "0x75280fcdfb4c1f332f4f5208afaf868e4fb56a511a596262fe516192599d0b6e",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA06": {
+   "args": [
+    "TA-000027",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-informal.html",
+    "6d5382e7831a42b8ed1c94e1d25b92c60cb22acf7742247125e0ef21a3ba616f"
+   ],
+   "at": "2026-09-28T17:22:58Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA06",
+   "tx": "0x65e34d3f899d66ece0f2f1fcc97d32a6dc08c86c5c1b5274cf814197d3cba55e",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA07": {
+   "args": [
+    "TA-000028",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-acetaminofen.html",
+    "63ed1cbb6533f51ec497580a3ac2116429f0c51a2cabeca19b6a79357392b06f"
+   ],
+   "at": "2026-09-28T17:26:12Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA07",
+   "tx": "0xd308ce33da544b183b577cad704d797fa767f45d021384480e85485861a61b5d",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "idle",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA08": {
+   "args": [
+    "TA-000029",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-every-4-hours.html",
+    "815c13b13cd2ef0a00bc577f53f214cf6114665237315e7230e107de75472f3f"
+   ],
+   "at": "2026-09-28T17:28:59Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA08",
+   "tx": "0xc3189359cc0dbf5a07993776a62c217bcb143cbe32aba21edd2ac7b30fdd9f8c",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA09": {
+   "args": [
+    "TA-000030",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-annotated.html",
+    "1cfcb65ee9100e53a1eb11a8b5a8ceac7b7334d969411a3fc75294a121c298fc"
+   ],
+   "at": "2026-09-28T17:31:57Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA09",
+   "tx": "0xea988ee9dcf9adb43bc49d9a2fb6d9a4d51a9db79f54b4ccbf048c0d32878c72",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "idle"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA10": {
+   "args": [
+    "TA-000031",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es.html",
+    "4444444444444444444444444444444444444444444444444444444444444444"
+   ],
+   "at": "2026-09-28T17:34:54Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA10",
+   "tx": "0x91d5d7b7fc679fd22e618b5919c6da39a7ca6c83c3621455c68a16ddda808516",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA11": {
+   "args": [
+    "TA-000032",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es-unpublished.html",
+    "5555555555555555555555555555555555555555555555555555555555555555"
+   ],
+   "at": "2026-09-28T17:37:50Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA11",
+   "tx": "0x460d15b2ecb7220280f106ed3d237d4aa54a4f5ef0e913a73fc73c073f5e49c1",
+   "votes": [
+    "idle",
+    "idle",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "deliver:TA13": {
+   "args": [
+    "TA-000021",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es.html",
+    "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2"
+   ],
+   "at": "2026-09-28T17:03:25Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "deliver_translation",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "deliver:TA13",
+   "tx": "0xcf11f60d10c51f2f9ad2d4bd96fc141a5400a83d1b75e1dc84c34a63761afff7",
+   "votes": [
+    "agree",
+    "idle",
+    "idle",
+    "agree",
+    "agree"
+   ],
+   "wallet": "translator"
+  },
+  "expire:TA12": {
+   "agreement_id": "TA-000020",
+   "args": [
+    "TA-000020"
+   ],
+   "at": "2026-09-28T17:44:37Z",
+   "expected_reason": "EXPIRED",
+   "expected_verdict": "NONE",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "expire_agreement",
+   "note": "accepted and never delivered; anyone expires it after the delivery window",
+   "observed_reason": "EXPIRED",
+   "observed_verdict": "NONE",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "expire:TA12",
+   "tx": "0x5e417bfa93024d58361d4a1db4db3cdcd02e29058455a79888f947717811fd15",
+   "votes": [
+    "idle",
+    "agree",
+    "idle",
+    "agree",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "finalize:TA01": {
+   "args": [
+    "TA-000022"
+   ],
+   "at": "2026-09-28T17:42:25Z",
+   "consumer_view": {
+    "agreement_id": "TA-000022",
+    "assessed_at": "2026-09-28T17:06:36Z",
+    "ending": "",
+    "final": true,
+    "found": true,
+    "partially_preserved": false,
+    "preserved": true,
+    "reason_code": "MEANING_PRESERVED",
+    "resolution_id": "TR-000016",
+    "rounds": 2,
+    "status": "FINAL",
+    "terms_hash": "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9",
+    "verdict": "PRESERVED",
+    "verdict_version": 1
+   },
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "finalize",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "finalize:TA01",
+   "tx": "0x9ed3ef1210c8fead7cb691f2ae5c17b8bd329f0f04a21d11429852cddc704a15",
+   "votes": [
+    "idle",
+    "agree",
+    "idle",
+    "agree",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "finalize:TA02": {
+   "args": [
+    "TA-000023"
+   ],
+   "at": "2026-09-28T17:43:13Z",
+   "consumer_view": {
+    "agreement_id": "TA-000023",
+    "assessed_at": "2026-09-28T17:09:47Z",
+    "ending": "",
+    "final": true,
+    "found": true,
+    "partially_preserved": true,
+    "preserved": false,
+    "reason_code": "MINOR_DEVIATIONS",
+    "resolution_id": "TR-000017",
+    "rounds": 1,
+    "status": "FINAL",
+    "terms_hash": "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9",
+    "verdict": "PARTIALLY_PRESERVED",
+    "verdict_version": 1
+   },
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "finalize",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "finalize:TA02",
+   "tx": "0xaef7f2feaa8142d44fa4f74858ca837b033edfd8b74d63b88b67f23246b4480c",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "idle",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "finalize:TA03": {
+   "args": [
+    "TA-000024"
+   ],
+   "at": "2026-09-28T17:43:55Z",
+   "consumer_view": {
+    "agreement_id": "TA-000024",
+    "assessed_at": "2026-09-28T17:12:54Z",
+    "ending": "",
+    "final": true,
+    "found": true,
+    "partially_preserved": false,
+    "preserved": false,
+    "reason_code": "MATERIAL_OMISSION",
+    "resolution_id": "TR-000018",
+    "rounds": 1,
+    "status": "FINAL",
+    "terms_hash": "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9",
+    "verdict": "NOT_PRESERVED",
+    "verdict_version": 1
+   },
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "finalize",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "finalize:TA03",
+   "tx": "0xd972761417f005589c26d730844dffbffc6ca70ccb4cbc1b7d7c0a433ca895a4",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "lapse:TA13": {
+   "agreement_id": "TA-000021",
+   "args": [
+    "TA-000021"
+   ],
+   "at": "2026-09-28T17:45:19Z",
+   "expected_reason": "LAPSED",
+   "expected_verdict": "NONE",
+   "held": true,
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "lapse_agreement",
+   "note": "delivered and never assessed; anyone lapses it after the assess window",
+   "observed_reason": "LAPSED",
+   "observed_verdict": "NONE",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "lapse:TA13",
+   "tx": "0x6a83572232d3c1dc4d425453151bfcc9ff550ac0b7ec4b66fa70a337f5b774aa",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "keeper"
+  },
+  "propose:REFUSALS": {
+   "agreement_id": "TA-000035",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:48:03Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:REFUSALS",
+   "tx": "0xdabca65c5dcc9c66235bb006af9cdbcf195a07cbea0971d89a2678f798c7e436",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "stranger"
+  },
+  "propose:TA01": {
+   "agreement_id": "TA-000022",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:04:10Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA01",
+   "tx": "0x5beadd70b7fb7d254557b10a6af60b71315d3b49f0b4e4ecf97bfc3d7cbfad28",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "r01"
+  },
+  "propose:TA02": {
+   "agreement_id": "TA-000023",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:08:17Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA02",
+   "tx": "0x6aa4b9cf1968778ba5a1a0a39e08f7c48b6d2a15c6dc291886e7f568c71fa1f0",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "idle",
+    "agree"
+   ],
+   "wallet": "r02"
+  },
+  "propose:TA03": {
+   "agreement_id": "TA-000024",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:11:25Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA03",
+   "tx": "0x1f446e3b259aeadce2079600580cae104a76556b358cf9d7c98c4c50d4460703",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "r03"
+  },
+  "propose:TA04": {
+   "agreement_id": "TA-000025",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:14:30Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA04",
+   "tx": "0x5ea65d74958692c8ee4ff6a43713f314c5639c1cba8f2a8db4563a798a9da8f6",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "idle",
+    "agree"
+   ],
+   "wallet": "r04"
+  },
+  "propose:TA05": {
+   "agreement_id": "TA-000026",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:17:35Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA05",
+   "tx": "0x5c510238c774782cd505b2108c8295f7aa20c5a4c7e296d239b947bef7b2c438",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "idle",
+    "agree"
+   ],
+   "wallet": "r05"
+  },
+  "propose:TA06": {
+   "agreement_id": "TA-000027",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:21:25Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA06",
+   "tx": "0xe2c1b37cdd6bc718659a8accb37b3643f6141c85c2b1fd1b52942903478214f0",
+   "votes": [
+    "agree",
+    "idle",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "r06"
+  },
+  "propose:TA07": {
+   "agreement_id": "TA-000028",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:24:46Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA07",
+   "tx": "0xcc2d18505212c93d0e107f88a1a2acedf7fb34da86d367c722c112c33b0087d3",
+   "votes": [
+    "idle",
+    "agree",
+    "agree",
+    "agree",
+    "idle"
+   ],
+   "wallet": "r07"
+  },
+  "propose:TA08": {
+   "agreement_id": "TA-000029",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:27:37Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA08",
+   "tx": "0xd722ce2655940a0c8aeb917a8c13472ee4d922bc536d33e757642d59b53978ca",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "r08"
+  },
+  "propose:TA09": {
+   "agreement_id": "TA-000030",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:30:31Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA09",
+   "tx": "0xa836e452dd8051b0f9c949405d2272bd1e3240aa36cfe1b182fb2ba66b8005ea",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "r09"
+  },
+  "propose:TA10": {
+   "agreement_id": "TA-000031",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:33:34Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA10",
+   "tx": "0x6a654363b6b4a9968af08f53501faf96b75a5c58b110620ea349366213a16591",
+   "votes": [
+    "idle",
+    "idle",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "r10"
+  },
+  "propose:TA11": {
+   "agreement_id": "TA-000032",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:36:25Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA11",
+   "tx": "0x806a6fb14f85973dba197819bb9e5bdc9ec175249aecdd07f30d344ea55d9b98",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "agree",
+    "idle"
+   ],
+   "wallet": "r11"
+  },
+  "propose:TA12": {
+   "agreement_id": "TA-000020",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (988 characters)"
+   ],
+   "at": "2026-09-28T17:00:38Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA12",
+   "tx": "0x5d28dd07e7052b9257de8d69bd0728f0bd073741a7d557ac30b986bdb0a4a071",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "r12"
+  },
+  "propose:TA13": {
+   "agreement_id": "TA-000021",
+   "args": [
+    "{\"assess_window\": 300, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"so... (988 characters)"
+   ],
+   "at": "2026-09-28T17:02:03Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA13",
+   "tx": "0x156019f806d54267a376bc44ed848b236684693588f0fd8f2e9e03a078e2f57c",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "agree",
+    "idle"
+   ],
+   "wallet": "r13"
+  },
+  "propose:TA14": {
+   "agreement_id": "TA-000033",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:39:26Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA14",
+   "tx": "0x8af6efddbb340b572980460ba45d5859f993a79655148a1b6a45b5ba49c37f02",
+   "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+   ],
+   "wallet": "r14"
+  },
+  "propose:TA15": {
+   "agreement_id": "TA-000034",
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:40:57Z",
+   "kind": "write",
+   "leader_execution": "SUCCESS",
+   "method": "propose_agreement",
+   "rounds": 1,
+   "status": "FINALIZED",
+   "step": "propose:TA15",
+   "tx": "0x2a8f8b7759e35c24909ae45e862e4d1a73da55a61f9bdc6d393dadf68f841a20",
+   "votes": [
+    "agree",
+    "agree",
+    "idle",
+    "idle",
+    "agree"
+   ],
+   "wallet": "r15"
+  },
+  "refuse:accepted_cancel": {
+   "args": [
+    "TA-000035"
+   ],
+   "at": "2026-09-28T17:52:42Z",
+   "because": "accepted terms can no longer be withdrawn",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] only a PROPOSED agreement can be cancelled\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "cancel_agreement",
+   "status": "FINALIZED",
+   "step": "refuse:accepted_cancel",
+   "tx": "0x0d060f1a2f9c92111ec9861de0ab7704e5ad1645990e53b55d0dfa213ab85683",
+   "wallet": "stranger"
+  },
+  "refuse:double_assessment": {
+   "args": [
+    "TA-000027"
+   ],
+   "at": "2026-09-28T17:53:21Z",
+   "because": "an agreement is assessed once, then only contested",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] only a DELIVERED agreement is assessed\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "assess",
+   "status": "FINALIZED",
+   "step": "refuse:double_assessment",
+   "tx": "0x9547c82a895212134f75383f3e077768139cd6c59d7d15762efd892e42023839",
+   "wallet": "keeper"
+  },
+  "refuse:final_contest": {
+   "args": [
+    "TA-000022"
+   ],
+   "at": "2026-09-28T17:54:43Z",
+   "because": "a final outcome is not contested",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] only an ASSESSED agreement is contested\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "contest",
+   "status": "FINALIZED",
+   "step": "refuse:final_contest",
+   "tx": "0x46a77838e5acdbc33e41e6502f69bc419957ff9963276f25c914679c602ef3c4",
+   "wallet": "r01"
+  },
+  "refuse:outside_domains": {
+   "args": [
+    "TA-000035",
+    "https://translator-own-site.example.com/es.html",
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   ],
+   "at": "2026-09-28T17:50:46Z",
+   "because": "the translation must come from a host the agreement names",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] translation_url is outside the agreement's evidence domains\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "deliver_translation",
+   "status": "FINALIZED",
+   "step": "refuse:outside_domains",
+   "tx": "0x81fa00bfb4de1fcb978bdb0dd63bf955c8d767ad70eb7e70c887133e1cf98d57",
+   "wallet": "translator"
+  },
+  "refuse:same_language": {
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:47:20Z",
+   "because": "a translation needs two languages",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] source_language and target_language must differ\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "propose_agreement",
+   "status": "FINALIZED",
+   "step": "refuse:same_language",
+   "tx": "0x5af7cbce6b265b1e25219a5c52a88c09bbf689c8ebc257bf9017c7a4d4fff042",
+   "wallet": "stranger"
+  },
+  "refuse:self_as_translator": {
+   "args": [
+    "{\"assess_window\": 1800, \"contest_window\": 900, \"critical_terms\": [{\"renderings\": [\"paracetamol\"], \"source_term\": \"paracetamol\", \"term_id\": \"ingredient\"}, {\"renderings\": [\"comprimidos\", \"tabletas\"], \"s... (989 characters)"
+   ],
+   "at": "2026-09-28T17:45:59Z",
+   "because": "the translator must be another account than the requester",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] the translator must be another account than the requester\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "propose_agreement",
+   "status": "FINALIZED",
+   "step": "refuse:self_as_translator",
+   "tx": "0x1cb8f7341c57ef143c0641faf5cc9f6794f83b1ab03820302fe416774c3ea4c4",
+   "wallet": "stranger"
+  },
+  "refuse:source_as_translation": {
+   "args": [
+    "TA-000035",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-en.html",
+    "1a39eb1836d80a94fafa47bbd85224d3a958971109114341068904fd74dac0be"
+   ],
+   "at": "2026-09-28T17:51:25Z",
+   "because": "the source's own bytes are not a translation",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] the translation's bytes are the source's bytes\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "deliver_translation",
+   "status": "FINALIZED",
+   "step": "refuse:source_as_translation",
+   "tx": "0xf6dfb2a43f51af8595aca1fe4b81d199d010cbea9cf55dc016608a09b019790a",
+   "wallet": "translator"
+  },
+  "refuse:stranger_accepts": {
+   "args": [
+    "TA-000035",
+    "ed33c3a3c84768270cea52c8149f363140d6d06f42aeb714d1a9a9a10948b9f9"
+   ],
+   "at": "2026-09-28T17:48:43Z",
+   "because": "only the named translator accepts",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] only the named translator accepts\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "accept_agreement",
+   "status": "FINALIZED",
+   "step": "refuse:stranger_accepts",
+   "tx": "0x7f055a917bb427091ecf2c84f19c13f90a404ac6e4a44877e3fc5f7dd677daf8",
+   "wallet": "keeper"
+  },
+  "refuse:stranger_contest": {
+   "args": [
+    "TA-000027"
+   ],
+   "at": "2026-09-28T17:54:00Z",
+   "because": "only the requester or the translator contests",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] only the requester or the translator contests an outcome\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "contest",
+   "status": "FINALIZED",
+   "step": "refuse:stranger_contest",
+   "tx": "0xff71d004167a7b572c397d59e4b456be3ec4f127cf89b5db131abb671415782b",
+   "wallet": "stranger"
+  },
+  "refuse:stranger_delivers": {
+   "args": [
+    "TA-000035",
+    "https://cdn.jsdelivr.net/gh/Olawalter/TranslationAgreement@3a25be49bd66b95095df233ade85d8caf91258ab/fixtures/evidence/leaflet-es.html",
+    "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2"
+   ],
+   "at": "2026-09-28T17:52:03Z",
+   "because": "only the named translator delivers",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] only the named translator delivers\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "deliver_translation",
+   "status": "FINALIZED",
+   "step": "refuse:stranger_delivers",
+   "tx": "0x1d997f05136dea4723fdf2c0c381bad2c7074ba432d8e99593ff0ba6a44150d3",
+   "wallet": "stranger"
+  },
+  "refuse:wrong_terms_hash": {
+   "args": [
+    "TA-000035",
+    "0000000000000000000000000000000000000000000000000000000000000000"
+   ],
+   "at": "2026-09-28T17:49:28Z",
+   "because": "the translator accepts the exact terms",
+   "error": "{\"status\": \"rollback\", \"payload\": \"[EXPECTED] terms_hash does not match the agreement\"}",
+   "held": true,
+   "kind": "refusal",
+   "leader_execution": "ERROR",
+   "method": "accept_agreement",
+   "status": "FINALIZED",
+   "step": "refuse:wrong_terms_hash",
+   "tx": "0x1d30c8d7a6a2e18f6c7e3b7251bac9c439e71d812a0c72f2c260c8cd4dbe59af",
+   "wallet": "translator"
+  }
+ },
+ "summary": {
+  "missed": [],
+  "outcomes_checked": 19,
+  "outcomes_held": 19,
+  "refusals": 11,
+  "refusals_held": 11,
+  "steps": 72,
+  "transactions": 72
+ }
+}

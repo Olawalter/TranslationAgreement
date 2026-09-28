@@ -51,7 +51,12 @@ and no reason code** - those are code's.
 | `OMISSION` `MINOR` / `MATERIAL` | the **source** only - what went missing has no words in the translation |
 | `DISTORTION` / `ADDITION` `MINOR` / `MATERIAL` | the **translation** only - the changed or invented passage |
 | `TERM_<id>` `INCORRECT` | the **translation** only |
-| `REQ_<id>` `MET` / `NOT_MET` | either |
+| `REQ_<id>` `NOT_MET` | either - the passage that breaks it |
+
+A reading that finds no problem (`NONE`, `CORRECT`, `MET`) needs no quote: "formal
+throughout" is not proven by any one passage. The first diagnostic pass showed
+why - a leader offered the single word "tome" as proof of formal address, one
+word grounds nothing, and the round split.
 
 A quote naming the wrong document is re-attributed only if its words occur in
 the document the reading may cite; otherwise it is dropped, and a reading that
@@ -126,5 +131,32 @@ nothing unclear becomes `PRESERVED`.
 <!-- LIVE:START -->
 ## Live findings
 
-Filled from the run of record.
+The run of record held 19 of 19 outcomes; the passes before it are where the
+design met real panels, and they are worth reading
+([`DEPLOYMENT.md`](DEPLOYMENT.md#how-the-live-evidence-was-reached)).
+
+**The panel reads both languages closely - closer than the fixtures were
+written.** It flagged a reflexive Spanish construction that could mean "keep
+yourself away from children", and then a named object ("this medicine") the
+English source had left implicit. Both times it was right, and both times the
+fix was the fixture: a source that leaves something implicit forces every
+faithful translation to choose, and a careful reader notices the choice.
+
+**A quote rule that suits a finding does not suit its absence.** The first
+contract asked a requirement read as MET to quote a passage. A leader offered
+the single word "tome" as proof of formal address, one word grounds nothing, the
+reading fell to UNCLEAR, and the round split against three validators who read
+MET. The contract now asks for a quote only where a reading finds a problem.
+The failure itself was the designed one: no majority, nothing stored.
+
+**What the panel found, with the passage it rests on.** The dropped alcohol
+warning was quoted from the source; the reversed pregnancy warning and the
+invented all-ages claim from the translation; informal address with the
+sentence that breaks it. The all-ages line - which both adds a claim and
+contradicts the source - was read as an addition, the reason the catalogue named
+first; the tolerance for reading it as a distortion was declared and not used.
+
+**What code decided.** A correct synonym that is not the agreed rendering, and a
+dose changed from every 8 hours to every 4 while another 8 stayed on the page,
+never reached the panel.
 <!-- LIVE:END -->

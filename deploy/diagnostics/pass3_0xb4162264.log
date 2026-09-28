@@ -1,0 +1,169 @@
+17:02:39 contract 0xB4162264cB70FdC774951a236ED3d18a32ccb680 phase full
+17:02:39 phase cases
+17:02:39   propose:TA12: propose_agreement as r12
+17:03:17     FINALIZED/SUCCESS votes idle,agree,agree,agree,idle
+17:03:24   accept:TA12: accept_agreement as translator
+17:04:03     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+17:04:03   propose:TA13: propose_agreement as r13
+17:04:43     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:04:50   accept:TA13: accept_agreement as translator
+17:05:35     FINALIZED/SUCCESS votes agree,agree,idle,agree,agree
+17:05:35   deliver:TA13: deliver_translation as translator
+17:06:14     FINALIZED/SUCCESS votes agree,agree,agree,idle,idle
+17:06:14   propose:TA01: propose_agreement as r01
+17:06:54     FINALIZED/SUCCESS votes idle,agree,agree,agree,agree
+17:07:01   accept:TA01: accept_agreement as translator
+17:07:46     FINALIZED/SUCCESS votes agree,agree,agree,idle,agree
+17:07:46   deliver:TA01: deliver_translation as translator
+17:08:31     FINALIZED/SUCCESS votes idle,idle,agree,agree,agree
+17:08:31   assess:TA01: assess as keeper
+17:09:23     FINALIZED/SUCCESS votes idle,idle,agree,agree,agree
+17:09:24     TA01: PRESERVED/MEANING_PRESERVED HELD
+17:09:24   contest:TA01: contest as r01
+17:10:28     FINALIZED/SUCCESS votes agree,agree,idle,agree,idle
+17:10:30     TA01:contest: PRESERVED/MEANING_PRESERVED HELD
+17:10:30   propose:TA02: propose_agreement as r02
+17:11:11     FINALIZED/SUCCESS votes agree,agree,idle,agree,idle
+17:11:18   accept:TA02: accept_agreement as translator
+17:11:59     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:11:59   deliver:TA02: deliver_translation as translator
+17:12:40     FINALIZED/SUCCESS votes agree,idle,agree,idle,agree
+17:12:40   assess:TA02: assess as keeper
+17:14:05     FINALIZED/SUCCESS votes agree,agree,agree,idle,idle
+17:14:07     TA02: PARTIALLY_PRESERVED/MINOR_DEVIATIONS HELD
+17:14:07   propose:TA03: propose_agreement as r03
+17:14:46     FINALIZED/SUCCESS votes idle,agree,agree,agree,idle
+17:14:57   accept:TA03: accept_agreement as translator
+17:15:37     FINALIZED/SUCCESS votes idle,agree,agree,idle,agree
+17:15:37   deliver:TA03: deliver_translation as translator
+17:16:16     FINALIZED/SUCCESS votes agree,idle,agree,idle,agree
+17:16:16   assess:TA03: assess as keeper
+17:17:19     FINALIZED/SUCCESS votes idle,agree,disagree,agree,agree
+17:17:21     TA03: NOT_PRESERVED/MATERIAL_OMISSION HELD
+17:17:21   propose:TA04: propose_agreement as r04
+17:17:59     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+17:18:09   accept:TA04: accept_agreement as translator
+17:18:54     FINALIZED/SUCCESS votes agree,agree,agree,agree,idle
+17:18:54   deliver:TA04: deliver_translation as translator
+17:19:35     FINALIZED/SUCCESS votes idle,idle,agree,agree,agree
+17:19:35   assess:TA04: assess as keeper
+17:20:29     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+17:20:31     TA04: NOT_PRESERVED/MATERIAL_DISTORTION HELD
+17:20:31   propose:TA05: propose_agreement as r05
+17:21:10     FINALIZED/SUCCESS votes idle,agree,agree,agree,idle
+17:21:18   accept:TA05: accept_agreement as translator
+17:22:06     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:22:06   deliver:TA05: deliver_translation as translator
+17:22:48     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:22:48   assess:TA05: assess as keeper
+17:23:40     FINALIZED/SUCCESS votes agree,agree,idle,agree,idle
+17:23:41     TA05: NOT_PRESERVED/MATERIAL_ADDITION HELD
+17:23:41   propose:TA06: propose_agreement as r06
+17:24:21     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:24:28   accept:TA06: accept_agreement as translator
+17:25:10     FINALIZED/SUCCESS votes agree,idle,agree,agree,idle
+17:25:10   deliver:TA06: deliver_translation as translator
+17:25:52     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:25:52   assess:TA06: assess as keeper
+17:27:17     FINALIZED/SUCCESS votes agree,agree,agree,idle,idle
+17:27:18     TA06: NOT_PRESERVED/REQUIREMENT_NOT_MET HELD
+17:27:18   propose:TA07: propose_agreement as r07
+17:27:58     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:28:06   accept:TA07: accept_agreement as translator
+17:28:47     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:28:47   deliver:TA07: deliver_translation as translator
+17:29:41     FINALIZED/SUCCESS votes agree,idle,agree,agree,agree
+17:29:41   assess:TA07: assess as keeper
+17:30:48     FINALIZED/SUCCESS votes agree,idle,agree,idle,agree
+17:30:51     TA07: NOT_PRESERVED/CRITICAL_TERM_MISSING HELD
+17:30:51   propose:TA08: propose_agreement as r08
+17:31:39     FINALIZED/SUCCESS votes agree,agree,agree,agree,idle
+17:31:48   accept:TA08: accept_agreement as translator
+17:32:29     FINALIZED/SUCCESS votes idle,agree,agree,agree,idle
+17:32:29   deliver:TA08: deliver_translation as translator
+17:33:19     FINALIZED/SUCCESS votes agree,idle,agree,idle,agree
+17:33:19   assess:TA08: assess as keeper
+17:34:07     FINALIZED/SUCCESS votes agree,idle,agree,agree,idle
+17:34:09     TA08: NOT_PRESERVED/NUMBER_NOT_PRESERVED HELD
+17:34:09   propose:TA09: propose_agreement as r09
+17:34:48     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+17:34:55   accept:TA09: accept_agreement as translator
+17:35:40     FINALIZED/SUCCESS votes agree,idle,agree,agree,idle
+17:35:40   deliver:TA09: deliver_translation as translator
+17:36:19     FINALIZED/SUCCESS votes idle,agree,agree,idle,agree
+17:36:19   assess:TA09: assess as keeper
+17:37:09     FINALIZED/SUCCESS votes agree,agree,idle,idle,agree
+17:37:21     TA09: INSUFFICIENT_EVIDENCE/DOCUMENT_ADDRESSES_ASSESSOR HELD
+17:37:21   propose:TA10: propose_agreement as r10
+17:38:01     FINALIZED/SUCCESS votes agree,agree,idle,agree,agree
+17:38:08   accept:TA10: accept_agreement as translator
+17:38:52     FINALIZED/SUCCESS votes agree,agree,agree,idle,agree
+17:38:52   deliver:TA10: deliver_translation as translator
+17:39:32     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:39:32   assess:TA10: assess as keeper
+17:40:11     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+17:40:13     TA10: INSUFFICIENT_EVIDENCE/EVIDENCE_DIGEST_MISMATCH HELD
+17:40:13   propose:TA11: propose_agreement as r11
+17:40:52     FINALIZED/SUCCESS votes agree,agree,idle,idle,agree
+17:41:01   accept:TA11: accept_agreement as translator
+17:41:40     FINALIZED/SUCCESS votes idle,agree,idle,agree,agree
+17:41:40   deliver:TA11: deliver_translation as translator
+17:42:20     FINALIZED/SUCCESS votes agree,idle,agree,agree,idle
+17:42:20   assess:TA11: assess as keeper
+17:43:00     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+17:43:02     TA11: INSUFFICIENT_EVIDENCE/DOCUMENT_UNREADABLE HELD
+17:43:02   propose:TA14: propose_agreement as r14
+17:43:41     FINALIZED/SUCCESS votes agree,agree,idle,idle,agree
+17:43:47   decline:TA14: decline_agreement as translator
+17:44:26     FINALIZED/SUCCESS votes idle,agree,agree,agree,agree
+17:44:28     TA14: NONE/DECLINED HELD
+17:44:28   propose:TA15: propose_agreement as r15
+17:45:06     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:45:12   cancel:TA15: cancel_agreement as r15
+17:45:57     FINALIZED/SUCCESS votes idle,idle,agree,agree,agree
+17:45:58     TA15: NONE/CANCELLED HELD
+17:45:58 phase settle
+17:46:00   finalize:TA01: finalize as keeper
+17:46:39     FINALIZED/SUCCESS votes agree,agree,idle,idle,agree
+17:46:41     TA01 consumer view: preserved=True partial=False HELD
+17:46:43   finalize:TA02: finalize as keeper
+17:47:22     FINALIZED/SUCCESS votes agree,agree,agree,agree,agree
+17:47:24     TA02 consumer view: preserved=False partial=True HELD
+17:47:26   finalize:TA03: finalize as keeper
+17:48:05     FINALIZED/SUCCESS votes agree,idle,agree,agree,idle
+17:48:07     TA03 consumer view: preserved=False partial=False HELD
+17:48:08   expire:TA12: expire_agreement as keeper
+17:48:48     FINALIZED/SUCCESS votes agree,idle,agree,agree,idle
+17:48:50     TA12: NONE/EXPIRED HELD
+17:48:52   lapse:TA13: lapse_agreement as keeper
+17:49:36     FINALIZED/SUCCESS votes agree,idle,idle,agree,agree
+17:49:38     TA13: NONE/LAPSED HELD
+17:49:40   stats: {"agreements": 18, "preserved": 2, "resolutions": 14}
+17:49:40 phase refusals
+17:49:40   refuse:self_as_translator: expecting a refusal of propose_agreement
+17:50:18     refused
+17:50:18   refuse:same_language: expecting a refusal of propose_agreement
+17:50:57     refused
+17:50:57   propose:REFUSALS: propose_agreement as stranger
+17:51:37     FINALIZED/SUCCESS votes agree,agree,idle,agree,agree
+17:51:44   refuse:stranger_accepts: expecting a refusal of accept_agreement
+17:52:29     refused
+17:52:29   refuse:wrong_terms_hash: expecting a refusal of accept_agreement
+17:53:08     refused
+17:53:10   accept:REFUSALS: accept_agreement as translator
+17:53:50     FINALIZED/SUCCESS votes agree,agree,idle,agree,idle
+17:53:50   refuse:outside_domains: expecting a refusal of deliver_translation
+17:54:30     refused
+17:54:30   refuse:source_as_translation: expecting a refusal of deliver_translation
+17:55:10     refused
+17:55:10   refuse:stranger_delivers: expecting a refusal of deliver_translation
+17:55:54     refused
+17:55:54   refuse:accepted_cancel: expecting a refusal of cancel_agreement
+17:56:54     refused
+17:56:54   refuse:double_assessment: expecting a refusal of assess
+17:57:33     refused
+17:57:33   refuse:stranger_contest: expecting a refusal of contest
+17:58:12     refused
+17:58:12   refuse:final_contest: expecting a refusal of contest
+17:58:50     refused
+17:58:50 summary {"steps": 72, "transactions": 72, "outcomes_checked": 19, "outcomes_held": 19, "missed": [], "refusals": 11, "refusals_held": 11}
