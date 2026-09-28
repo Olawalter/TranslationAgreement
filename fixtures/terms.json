@@ -1,0 +1,43 @@
+{
+ "leaflet": {
+  "assess_window": 1800,
+  "contest_window": 900,
+  "critical_terms": [
+   {
+    "renderings": [
+     "paracetamol"
+    ],
+    "source_term": "paracetamol",
+    "term_id": "ingredient"
+   },
+   {
+    "renderings": [
+     "comprimidos",
+     "tabletas"
+    ],
+    "source_term": "tablets",
+    "term_id": "tablet"
+   }
+  ],
+  "delivery_window": 3600,
+  "evidence_domains": [
+   "raw.githubusercontent.com",
+   "cdn.jsdelivr.net"
+  ],
+  "preserve_numbers": true,
+  "requirements": [
+   {
+    "description": "Every instruction addresses the patient formally (usted), never informally (tu).",
+    "required": true,
+    "requirement_id": "formal_address"
+   }
+  ],
+  "source_language": "English",
+  "source_sha256": "c9d645fed089e6afe4dad245c8b45e39cf6942ceee8875b4d8046963a4508fb7",
+  "source_url": "{source_url}",
+  "spec_version": 1,
+  "target_language": "Spanish",
+  "title": "Patient leaflet - Paracetamol 500 mg tablets (fixture)",
+  "translator": "{translator}"
+ }
+}

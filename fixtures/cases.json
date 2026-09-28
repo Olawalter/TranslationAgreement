@@ -1,0 +1,188 @@
+{
+ "cases": [
+  {
+   "case": "TA01",
+   "contest": true,
+   "expect_reason": "MEANING_PRESERVED",
+   "expect_verdict": "PRESERVED",
+   "note": "a faithful translation: every line, every number, both terms, formal address",
+   "settle": true,
+   "terms": {},
+   "translation": "evidence/leaflet-es.html",
+   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "wallet": "r01"
+  },
+  {
+   "case": "TA02",
+   "expect_reason": "MINOR_DEVIATIONS",
+   "expect_verdict": "PARTIALLY_PRESERVED",
+   "note": "'out of the reach and sight of children': a real addition nobody would act on differently",
+   "settle": true,
+   "terms": {},
+   "translation": "evidence/leaflet-es-sight.html",
+   "translation_sha256": "bd68ed46722ef2ca15eb90422773d453b1b60d1f962ab39558074428ce873f84",
+   "wallet": "r02"
+  },
+  {
+   "case": "TA03",
+   "expect_reason": "MATERIAL_OMISSION",
+   "expect_verdict": "NOT_PRESERVED",
+   "note": "the alcohol warning is gone; no number or term reveals it",
+   "settle": true,
+   "terms": {},
+   "translation": "evidence/leaflet-es-no-alcohol.html",
+   "translation_sha256": "4322ee094d8b4d8366f85dbb6e0be8d41405014e048ca0a34b99a3e5b53e359a",
+   "wallet": "r03"
+  },
+  {
+   "case": "TA04",
+   "expect_reason": "MATERIAL_DISTORTION",
+   "expect_verdict": "NOT_PRESERVED",
+   "note": "'ask your doctor if pregnant' became 'you may use it without asking'",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es-pregnancy.html",
+   "translation_sha256": "66fc6877047e887361d4cf720f30b783246c1ab21696e269bd6ba4cb98a0f2cf",
+   "wallet": "r04"
+  },
+  {
+   "case": "TA05",
+   "expect_reason": "MATERIAL_ADDITION",
+   "expect_reason_any": [
+    "MATERIAL_ADDITION",
+    "MATERIAL_DISTORTION"
+   ],
+   "expect_verdict": "NOT_PRESERVED",
+   "note": "an invented claim that it is safe for children of all ages",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es-all-ages.html",
+   "translation_sha256": "10b6c17d4a641e037771b19284b4040a144b91596908f88e5595b34a7e00e8ff",
+   "wallet": "r05"
+  },
+  {
+   "case": "TA06",
+   "expect_reason": "REQUIREMENT_NOT_MET",
+   "expect_verdict": "NOT_PRESERVED",
+   "note": "faithful in meaning but informal throughout, against an agreed requirement",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es-informal.html",
+   "translation_sha256": "76d82d22fca65ef3e0d273cfcab6b68b77201c434e906a24541bb5a461875e75",
+   "wallet": "r06"
+  },
+  {
+   "case": "TA07",
+   "expect_reason": "CRITICAL_TERM_MISSING",
+   "expect_verdict": "NOT_PRESERVED",
+   "note": "a correct synonym, but not the rendering the parties agreed; decided in code",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es-acetaminofen.html",
+   "translation_sha256": "ac8d0ff021d0edd624a4c7b882b8c347da8a7a09c09aa9071f80f87b5190d7c0",
+   "wallet": "r07"
+  },
+  {
+   "case": "TA08",
+   "expect_reason": "NUMBER_NOT_PRESERVED",
+   "expect_verdict": "NOT_PRESERVED",
+   "note": "every 8 hours became every 4; the other 8 survives, so only counting catches it; decided in code",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es-every-4-hours.html",
+   "translation_sha256": "a26a50bf179da1e208ee5f29c1f1606560f41887af85c23e29e4f4f829edf7a0",
+   "wallet": "r08"
+  },
+  {
+   "case": "TA09",
+   "expect_reason": "DOCUMENT_ADDRESSES_ASSESSOR",
+   "expect_verdict": "INSUFFICIENT_EVIDENCE",
+   "note": "the translation carries a line addressed to the assessor; the round stops",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es-annotated.html",
+   "translation_sha256": "3e5588e0770d382b64f125606c05aac4710a91e921a35c1af39a4f6b8708bb81",
+   "wallet": "r09"
+  },
+  {
+   "case": "TA10",
+   "expect_reason": "EVIDENCE_DIGEST_MISMATCH",
+   "expect_verdict": "INSUFFICIENT_EVIDENCE",
+   "note": "the delivered digest is not the served document's; never a verdict",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es.html",
+   "translation_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+   "wallet": "r10"
+  },
+  {
+   "case": "TA11",
+   "expect_reason": "DOCUMENT_UNREADABLE",
+   "expect_verdict": "INSUFFICIENT_EVIDENCE",
+   "note": "a translation that is not published is not an unfaithful one",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es-unpublished.html",
+   "translation_sha256": "5555555555555555555555555555555555555555555555555555555555555555",
+   "wallet": "r11"
+  },
+  {
+   "case": "TA12",
+   "expect_reason": "EXPIRED",
+   "expect_verdict": "NONE",
+   "lifecycle": "expire",
+   "note": "accepted and never delivered; anyone expires it after the delivery window",
+   "settle": false,
+   "terms": {
+    "delivery_window": 120
+   },
+   "translation": "evidence/leaflet-es.html",
+   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "wallet": "r12"
+  },
+  {
+   "case": "TA13",
+   "expect_reason": "LAPSED",
+   "expect_verdict": "NONE",
+   "lifecycle": "lapse",
+   "note": "delivered and never assessed; anyone lapses it after the assess window",
+   "settle": false,
+   "terms": {
+    "assess_window": 300
+   },
+   "translation": "evidence/leaflet-es.html",
+   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "wallet": "r13"
+  },
+  {
+   "case": "TA14",
+   "expect_reason": "DECLINED",
+   "expect_verdict": "NONE",
+   "lifecycle": "decline",
+   "note": "the named translator declines the terms",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es.html",
+   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "wallet": "r14"
+  },
+  {
+   "case": "TA15",
+   "expect_reason": "CANCELLED",
+   "expect_verdict": "NONE",
+   "lifecycle": "cancel",
+   "note": "the requester withdraws terms nobody accepted",
+   "settle": false,
+   "terms": {},
+   "translation": "evidence/leaflet-es.html",
+   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "wallet": "r15"
+  }
+ ],
+ "contest_case": "TA01",
+ "origins": [
+  "raw.githubusercontent.com",
+  "cdn.jsdelivr.net"
+ ],
+ "source": "evidence/leaflet-en.html"
+}
