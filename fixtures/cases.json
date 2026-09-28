@@ -9,7 +9,7 @@
    "settle": true,
    "terms": {},
    "translation": "evidence/leaflet-es.html",
-   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "translation_sha256": "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2",
    "wallet": "r01"
   },
   {
@@ -20,7 +20,7 @@
    "settle": true,
    "terms": {},
    "translation": "evidence/leaflet-es-sight.html",
-   "translation_sha256": "bd68ed46722ef2ca15eb90422773d453b1b60d1f962ab39558074428ce873f84",
+   "translation_sha256": "86990afbb5324830613b158585299d36429ae1c9e66956a5b2065292d494cd62",
    "wallet": "r02"
   },
   {
@@ -31,7 +31,7 @@
    "settle": true,
    "terms": {},
    "translation": "evidence/leaflet-es-no-alcohol.html",
-   "translation_sha256": "4322ee094d8b4d8366f85dbb6e0be8d41405014e048ca0a34b99a3e5b53e359a",
+   "translation_sha256": "8a79a01a97c246e08ffbf14df0d5ac20a6c3877ecdf88d7ee3c95ae9f5808118",
    "wallet": "r03"
   },
   {
@@ -42,7 +42,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es-pregnancy.html",
-   "translation_sha256": "66fc6877047e887361d4cf720f30b783246c1ab21696e269bd6ba4cb98a0f2cf",
+   "translation_sha256": "b9c83a51966936c718e8bc225ccc77c7d25d407b189da1ae7d052dbc87241224",
    "wallet": "r04"
   },
   {
@@ -57,7 +57,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es-all-ages.html",
-   "translation_sha256": "10b6c17d4a641e037771b19284b4040a144b91596908f88e5595b34a7e00e8ff",
+   "translation_sha256": "91c19923b479da162e1511e8db2e67e52e839c428f8104761da814a0d029820f",
    "wallet": "r05"
   },
   {
@@ -68,7 +68,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es-informal.html",
-   "translation_sha256": "76d82d22fca65ef3e0d273cfcab6b68b77201c434e906a24541bb5a461875e75",
+   "translation_sha256": "6d5382e7831a42b8ed1c94e1d25b92c60cb22acf7742247125e0ef21a3ba616f",
    "wallet": "r06"
   },
   {
@@ -79,7 +79,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es-acetaminofen.html",
-   "translation_sha256": "ac8d0ff021d0edd624a4c7b882b8c347da8a7a09c09aa9071f80f87b5190d7c0",
+   "translation_sha256": "63ed1cbb6533f51ec497580a3ac2116429f0c51a2cabeca19b6a79357392b06f",
    "wallet": "r07"
   },
   {
@@ -90,7 +90,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es-every-4-hours.html",
-   "translation_sha256": "a26a50bf179da1e208ee5f29c1f1606560f41887af85c23e29e4f4f829edf7a0",
+   "translation_sha256": "815c13b13cd2ef0a00bc577f53f214cf6114665237315e7230e107de75472f3f",
    "wallet": "r08"
   },
   {
@@ -101,7 +101,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es-annotated.html",
-   "translation_sha256": "3e5588e0770d382b64f125606c05aac4710a91e921a35c1af39a4f6b8708bb81",
+   "translation_sha256": "1cfcb65ee9100e53a1eb11a8b5a8ceac7b7334d969411a3fc75294a121c298fc",
    "wallet": "r09"
   },
   {
@@ -137,7 +137,7 @@
     "delivery_window": 120
    },
    "translation": "evidence/leaflet-es.html",
-   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "translation_sha256": "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2",
    "wallet": "r12"
   },
   {
@@ -151,7 +151,7 @@
     "assess_window": 300
    },
    "translation": "evidence/leaflet-es.html",
-   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "translation_sha256": "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2",
    "wallet": "r13"
   },
   {
@@ -163,7 +163,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es.html",
-   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "translation_sha256": "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2",
    "wallet": "r14"
   },
   {
@@ -175,7 +175,7 @@
    "settle": false,
    "terms": {},
    "translation": "evidence/leaflet-es.html",
-   "translation_sha256": "52786e1e0fb3e907e2d1963080a3f4af7d8be3bf7b43cddacf63bca028e07a85",
+   "translation_sha256": "98a703ae1ad5d31f808282f0e9ad21c76bfdd45ecd2efdf76a87c5ff5252e4e2",
    "wallet": "r15"
   }
  ],

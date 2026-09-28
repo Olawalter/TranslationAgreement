@@ -45,10 +45,10 @@ DOSE = "Adultos: tome de 1 a 2 comprimidos cada 8 horas, con un vaso de agua."
 MAX = "No tome más de 8 comprimidos en 24 horas."
 ALCOHOL = "No beba alcohol mientras toma este medicamento."
 PREGNANT = "Consulte a su médico antes de usarlo si está embarazada."
-CHILDREN = "Manténgase fuera del alcance de los niños."
+CHILDREN = "Mantenga este medicamento fuera del alcance de los niños."
 FAITHFUL = [USE, DOSE, MAX, ALCOHOL, PREGNANT, CHILDREN]
 
-CHILDREN_AND_SIGHT = "Manténgase fuera del alcance y de la vista de los niños."
+CHILDREN_AND_SIGHT = "Mantenga este medicamento fuera del alcance y de la vista de los niños."
 PREGNANT_DISTORTED = "Puede usarlo sin consultar a su médico si está embarazada."
 ALL_AGES = "Es seguro para niños de todas las edades."
 INFORMAL = [
@@ -57,7 +57,7 @@ INFORMAL = [
     "No tomes más de 8 comprimidos en 24 horas.",
     "No bebas alcohol mientras tomas este medicamento.",
     "Consulta a tu médico antes de usarlo si estás embarazada.",
-    "Mantenlo fuera del alcance de los niños.",
+    "Mantén este medicamento fuera del alcance de los niños.",
 ]
 ACETAMINOFEN_TITLE = "Acetaminofén 500 mg comprimidos - prospecto"
 ACETAMINOFEN = "Los comprimidos de acetaminofén de 500 mg alivian el dolor leve a moderado y la fiebre."

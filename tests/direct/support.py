@@ -34,7 +34,7 @@ T_DOSE = "Adultos: tome de 1 a 2 comprimidos cada 8 horas, con un vaso de agua."
 T_MAX = "No tome más de 8 comprimidos en 24 horas."
 T_ALCOHOL = "No beba alcohol mientras toma este medicamento."
 T_PREGNANT = "Consulte a su médico antes de usarlo si está embarazada."
-T_CHILDREN = "Manténgase fuera del alcance de los niños."
+T_CHILDREN = "Mantenga este medicamento fuera del alcance de los niños."
 
 T_PREGNANT_DISTORTED = "Puede usarlo sin consultar a su médico si está embarazada."
 T_ADDED = "Es seguro para niños de todas las edades."
